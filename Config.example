@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+
+bitmex_test = False
+
+bitmex_auth = { 'apiKey': '',
+		'secret' : '',
+		}
+	
+	
+twilio_conf = { 
+	'account_sid' : '',
+	'auth_token' : '',
+	'tonumber' : '',
+	'fromnumber' : '',
+	'msgprefix' : ''
+	}
+
+logfiles = { 'main' : 'main.log',
+		'debug' : 'debug.log'
+		}
+
+ordersize = 150
+
+# stoploss and take-profit thresholds for bracket in %
+sl = 5
+tp = 3
